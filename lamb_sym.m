@@ -1,7 +1,7 @@
-function [error,varargout] = lamb_sym_real2(kd,wd)
+function [error,varargout] = lamb_sym(kd,wd)
 %% 材料属性
-CL = 6.35;
-CT = 3.13;
+CL = 6.176;
+CT = 3.103;
 h=0.5;
 
 %% 量纲还原
