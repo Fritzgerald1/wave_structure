@@ -1,7 +1,7 @@
 function [error,varargout] = lamb_asy(kd,wd)
 %% 材料属性
-CL = 6.35;
-CT = 3.13;
+CL = 6.176; % 纵波波速(mm/μs)
+CT = 3.103; % 横波波速(mm/μs)
 h=0.5;
 
 %% 量纲还原
