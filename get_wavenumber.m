@@ -20,7 +20,7 @@ By = 10;
 dy = 1e-3;
 
 %% 搜索波数解
-parfor ii = 1:numel(w_sca) % 扫描频率的区间
+for ii = 1:numel(w_sca) % 扫描频率的区间
 	aw = w_sca(ii);
 	for  ay = Ay:5*dy:By % 搜索波数解实部的范围
 		s1=inf;
